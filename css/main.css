@@ -1,0 +1,91 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  font-size: 16px;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display:block;
+}
+
+section code span.single-indent{
+  padding-left:1.5em;
+}
+
+a{
+  color: #F7BEBE;
+  text-decoration: none;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+/* Styling for h1  */
+.main-heading {
+    font-family: 'Italianno', sans-serif;
+    color: #A8D1C2;
+    font-size: 4rem;
+    margin-bottom: 0.25em;
+}
+
+/* Styling for h2  */
+.section-heading {
+    font-family: 'Abel', sans-serif;
+    color: #A8D1C2;
+    font-size: 1.75rem;
+}
+
+/* Styling h3  */
+.subsection-heading {
+    font-family: 'Abel', sans-serif;
+    color: #A8D1C2;
+    font-size: 1.45rem;
+}
+
+
+/* paragraph */
+.body-text {
+    font-size: 1.2rem;
+    line-height: 120%;
+}
+
+/* bullet */
+.bulleted-list, .numbered-list {
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
