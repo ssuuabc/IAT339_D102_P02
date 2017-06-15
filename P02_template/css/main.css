@@ -963,7 +963,7 @@ input[type=search]:focus{
 }
 
 .horizontal-item:hover{
-  background-color: #ccc;
+  background-color: #A8D1C2;
   color: #FFF;
   border: 0.05em solid #ddd;
 }
@@ -1607,7 +1607,7 @@ figcaption{
 
 #custom-box{
   width: 100%;
-  height: auto;
+  height: 10;
 } 
 
 .customize h4{
@@ -1881,4 +1881,8 @@ figcaption{
 .complete .button-orange{
   margin-top: 2rem;
   padding: 0.8em 2.75em;
+}
+
+.row {
+  padding-top: 10px;
 }
