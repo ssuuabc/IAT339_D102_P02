@@ -479,7 +479,7 @@ a:hover{
 
 a.button-nav{
   display: inline-block;
-  padding: 0.9em 0.5em;
+  padding: 0.9em 0em;
   color: #999;
   text-decoration: none;
   font-size: 0.75rem;
@@ -1882,5 +1882,5 @@ figcaption{
 }
 
 .row {
-  padding-top: 10px;
+  padding-top: 0px;
 }
