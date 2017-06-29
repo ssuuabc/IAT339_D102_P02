@@ -1,0 +1,235 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+.heading1 {
+  color: gray;
+  font-size: 2.3rem;
+  margin-top: 4rem;
+}
+
+/* Styling for the main navigation on the top*/
+.nav-main-item {
+  font-size: 1rem;
+  background-color: gray;
+  padding: 0.5rem 0.8rem;
+  color: white;
+  border-radius: 10px;
+}
+
+.nav-main-item:hover, .nav-main-item:focus {
+  background-color: black;
+}
+
+.main-nav-para {
+  margin: 0;
+}
+
+/* Styling for the sub navigation on the top*/
+.subnav {
+  color: rgb(100,100,100);
+  border-radius: 10px;
+}
+
+.subnav:hover, .subnav:focus {
+  color: black;
+  text-decoration: none;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-orange {
+  display: inline-block;
+  padding: 0.8em 2em;
+  color: #FFF;
+  background-color: rgb(225, 184, 152);
+  border: 0.1em solid #FFF;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;  
+}
+
+.button-orange:hover, .button-orange:focus {
+  background-color: #FFF;
+  color: rgb(143,163,81);
+  border: 0.1em solid rgb(143,163,81);
+  text-decoration: none;
+}
+
+/* Styling for the in-text link */
+.in-text-link {
+  color: rgb(225, 184, 152);
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+.in-text-link:hover {
+  text-decoration: underline;
+}
+
+/* Styling for the submit/reset buttons */
+.button-submit, .button-reset {
+  display: inline-block;
+  padding: 0.8em 2em;
+  color: #FFF;
+  background-color: rgb(145, 163,81);
+  border: 0.1em solid #FFF;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;  
+}
+
+.button-submit:hover, .button-submit:focus, .button-reset:hover, .button-reset:focus {
+  background-color: #FFF;
+  color: rgb(143,163,81);
+  border: 0.1em solid rgb(143,163,81);
+  text-decoration: none;
+}
+}
+
+/* Styling for the text input field */
+.text-input-field {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(134,132,75);
+}
+
+.text-input {
+  color: rgb(100,100,100);
+  font-size: 1.5rem;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* Styling for the main header */
+.main-header {
+  font-size: 2rem;
+  color: rgb(134,132,75);
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+/* Styling for the section header */
+.section-header {
+  font-size: 1.5rem;
+  color: rgb(134,132,75);
+  margin-bottom: 1rem;
+}
+
+/* Styling for the subsection header */
+.subsection-header {
+  font-size: 1.2rem;
+  color: rgb(134,132,75);
+  margin-bottom: 1rem;
+}
+
+/* Styling for the paragraph */
+.paragraphs {
+  font-size: 0.8rem;
+  color: black;
+}
+
+/* Styling for the bulleted lists */
+.list-bulleted {
+  font-size: 1rem;
+  color: rgb(134,132,75);
+}
+
+/* Styling for the numbered lists */
+.list-numbered {
+  font-size: 1rem;
+  color: rgb(134,132,75);
+}
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/* Styling for the hamburger menu */
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(134,132,75);
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+/* Styling for the main navigation */
+.mobile-nav {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: rgb(134,132,75);
+  color: white;
+  text-align: center;
+  margin-bottom: 1px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  width: 312px;
+}
+
+.mobile-nav:hover, .mobile-nav:focus {
+  background-color: rgb(32,52,30);
+}
+
+.price {
+  color: gray;
+}
+
+.citation-heading {
+  font-size: 1.2rem;
+}
